@@ -1,1 +1,1 @@
-# omdb
+## Search for movies, TV shows or games using OMDB Api
