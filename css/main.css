@@ -1,0 +1,118 @@
+/* IE hacks */
+
+input::-ms-clear {
+  display: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+
+/* */
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form .button {
+  width: 50%;
+}
+
+img {
+  max-height: 367px;
+  max-width: 265px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #00d1b2;
+}
+
+strong {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.label {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 2em;
+}
+
+.help {
+  margin-right: 1px;
+  margin-top: 0;
+  text-align: right;
+  width: 50%;
+}
+
+.help.is-success {
+  color: #00d1b2;
+}
+
+.fa-check {
+  color: #00d1b2;
+}
+
+.fa-warning {
+  color: #ff3860;
+}
+
+.control {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.control-sort {
+  margin-top: .75rem;
+}
+
+.select select {
+  height: 2em;
+}
+
+.select:after {
+  margin-top: -.5em;
+}
+
+.select-sort {
+  margin-left: 0.5em;
+}
+
+.container {
+  margin-top: 60px !important;
+}
+
+.section-title {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.movies {}
+
+.movie {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1.35rem;
+}
+
+.content {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.content .title {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.span-green {
+  color: #00d1b2 !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>OMDB search</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+
+  <body>
+    <section class="section section-top">
+      <h1 class="section-title title">Search for movies, TV shows or video games</h1>
+      <div class="container">
+        <form class="form" action="#" method="get" autocomplete="off">
+          <p class="control control-input has-icon has-icon-right">
+            <input class="form-input form-input-title input" type="text" placeholder="Title" autofocus>
+            <span class="icon is-small">
+              <i class="fa"></i>
+            </span>
+
+          </p>
+          <p class="control control-submit is-grouped">
+            <input class="form-submit form-submit-regular button is-primary" type="submit" value="Search">
+            <span class="help is-success">&nbsp</span>
+            <!--<input class="button-remove button is-info" type="button" value="Remove All">-->
+          </p>
+        </form>
+        <p class="control control-sort has-addons">
+          <label class="label">Sort by</label>
+          <span class="select">
+            <select class="select-sort">
+              <option>Popularity</option>
+              <option>Release</option>
+              <option>Rating</option>
+              <option>Name</option>
+            </select>
+          </span>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-middle">
+      <div class="container is-fluid movies">
+        <!--        Dynamically added content
+-->
+      </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
